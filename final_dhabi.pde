@@ -44,8 +44,6 @@ void draw() {
       float z = map(b,0,1,-100,100);
       pushMatrix();
       translate(x * tileSize, y * tileSize, z);
-      
-      // Use fill to set color and adjust transparency
       fill(c, 200); 
       
       ellipse(0, 0, tileSize * b, tileSize * b);
